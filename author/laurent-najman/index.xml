@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laurent Najman | Jordão&#39;s Homepage</title>
+    <link>https://jookuma.github.io/author/laurent-najman/</link>
+      <atom:link href="https://jookuma.github.io/author/laurent-najman/index.xml" rel="self" type="application/rss+xml" />
+    <description>Laurent Najman</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Jordão Bragantini © 2021</copyright><lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jookuma.github.io/images/icon_hu94bc97264ab00d8bdf31220db36c8875_18956_512x512_fill_lanczos_center_2.png</url>
+      <title>Laurent Najman</title>
+      <link>https://jookuma.github.io/author/laurent-najman/</link>
+    </image>
+    
+    <item>
+      <title>Rethinking Interactive Image Segmentation: Feature Space Annotation</title>
+      <link>https://jookuma.github.io/publication/rethinking/</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://jookuma.github.io/publication/rethinking/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
