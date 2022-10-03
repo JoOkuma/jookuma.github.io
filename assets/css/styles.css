@@ -1,0 +1,15 @@
+/* Modified from: Nicolas P. Rougier Released under a Creative Commons CC-BY 4.0 licence */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500");
+body { font-family: "Roboto Mono", monospace; font-size: 14px; font-weight: 300; color: #e0e0e0; line-height: 1.4em; counter-reset: section; counter-reset: toc-section; counter-increment: toc-section; background-color: black; }
+
+a { color: #66b2ff; }
+
+a hover { color: #66b2ff; }
+
+.site-nav { line-height: 50px; }
+
+.wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
+
+@media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
+
+/*# sourceMappingURL=styles.css.map */

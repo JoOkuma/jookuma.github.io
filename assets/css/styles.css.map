@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n\n",
+		"/*\n * Modified from:\n *     Nicolas P. Rougier\n *     Released under a Creative Commons CC-BY 4.0 licence\n */\n\n@charset \"utf-8\";\n@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500');\n\n$base-font-family: \"Roboto Mono\", monospace;\n$base-font-size:   14px;\n$base-font-weight: 300;\n$a-font-color: rgba(102, 178, 255, 1.0);\n\n// Width of the content area\n$content-width:    800px;\n$on-palm:          600px;\n$on-laptop:        800px;\n$spacing-unit:     30px;\n\n@mixin media-query($device) {\n    @media screen and (max-width: $device) {\n        @content;\n    }\n}\n\n\nbody {\n    font-family: $base-font-family;\n    font-size: $base-font-size;\n    font-weight: $base-font-weight;\n    color:  rgba(224, 224, 224, 1.00);\n    line-height: 1.4em;\n    counter-reset: section;\n    counter-reset: toc-section;\n    counter-increment: toc-section;\n    background-color: black;\n}\n\na {\n    color: $a-font-color;\n    hover {\n        color: $a-font-color;\n    }\n}\n\n.site-nav {\n    line-height: 50px;\n}\n\n.wrapper {\n    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));\n    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));\n    margin-right: auto;\n    margin-left: auto;\n    padding-right: $spacing-unit;\n    padding-left: $spacing-unit;\n\n    @include media-query($on-laptop) {\n        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));\n        max-width:         calc(#{$content-width} - (#{$spacing-unit}));\n        padding-right: $spacing-unit / 2;\n        padding-left: $spacing-unit / 2;\n    }\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,2FAIG;AAGH,OAAO,CAAC,sEAAI;AAoBZ,AAAA,IAAI,CAAC,EACD,WAAW,EAnBI,aAAa,EAAE,SAAS,EAoBvC,SAAS,EAnBM,IAAI,EAoBnB,WAAW,EAnBI,GAAG,EAoBlB,KAAK,EAAG,OAAyB,EACjC,WAAW,EAAE,KAAK,EAClB,aAAa,EAAE,OAAO,EACtB,aAAa,EAAE,WAAW,EAC1B,iBAAiB,EAAE,WAAW,EAC9B,gBAAgB,EAAE,KAAK,GAC1B;;AAED,AAAA,CAAC,CAAC,EACE,KAAK,EA5BM,OAAwB,GAgCtC;;AALD,AAEI,CAFH,CAEG,KAAK,CAAC,EACF,KAAK,EA9BE,OAAwB,GA+BlC;;AAGL,AAAA,SAAS,CAAC,EACN,WAAW,EAAE,IAAI,GACpB;;AAED,AAAA,QAAQ,CAAC,EACL,SAAS,EAAE,gCAA8G,EACzH,SAAS,EAAU,wBAAsG,EACzH,YAAY,EAAE,IAAI,EAClB,WAAW,EAAE,IAAI,EACjB,aAAa,EArCE,IAAI,EAsCnB,YAAY,EAtCG,IAAI,GA8CtB;;AA3CG,MAAM,8BA6BV,GAAA,AAAA,QAAQ,CAAC,EASD,SAAS,EAAE,4BAA0G,EACrH,SAAS,EAAU,oBAAkG,EACrH,aAAa,EAAE,IAAiB,EAChC,YAAY,EAAE,IAAiB,GAEtC,EAAA"
+}
